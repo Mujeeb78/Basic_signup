@@ -23,31 +23,32 @@
             <form class="my-form" method="POST" action="signup.php">
                 <div class="form-grp">
                   <label>FirstName:</label>
-                  <input class="i-input" type="text"name="Firstname" placeholder="Firstname" id="Firstname">
+                  <input class="i-input" type="text"name="Firstname" placeholder="Firstname" id="Firstname" required>
                 </div>
                 <div class="form-grp">
                     <label>LastName:</label>
-                    <input class="i-input" type="text"name="Lastname" placeholder="Lastname" id="Lastname">
+                    <input class="i-input" type="text"name="Lastname" placeholder="Lastname" id="Lastname" required>
                   </div>
                 <div class="form-grp">
                       <label>Email:</label>
-                      <input type="text"name="email" placeholder="Email" id="Email">
+                      <input type="text"name="email" placeholder="Email" id="Email" required>
                 </div>
                 <div class="form-grp">
                   <label>Phone:</label>
-                  <input type="number"name="Phone" placeholder="Phone" id="Phone">
+                  <input type="number"name="Phone" placeholder="Phone" id="Phone" required>
             </div>
                 <div class="form-grp">
                     <label>Choose password:</label>
-                    <input type="password" name="password" placeholder="Password" id="Password">
+                    <input type="password" name="password" placeholder="Password" id="Password" required>
                   </div>
                 <div class="form-grp">
                   <label>Confirm password:</label>
-                  <input type="password" name="password" placeholder="Confirm password">
+                  <input type="password" name="password" placeholder="Confirm password" required>
                 </div>
                 <br>
                 <div  class="button">
                     <input class="button"type="submit"value="submit"name=" ">
+
                 </div>
                 <a href="signin" style="color: plum;">Already a User? Login</a>
             </form>
