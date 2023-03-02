@@ -14,7 +14,7 @@ pipeline {
 
 		stage('stop server') {
 			steps {
-				sh 'pid=$(lsof -i :8000 -t) && [ -n "$pid" ] && kill $pid'
+				sh 'sudo killall -9 python3'
 			}
 
 		}
